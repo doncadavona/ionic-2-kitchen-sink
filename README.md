@@ -1,7 +1,7 @@
 # Ionic 2 Kitchen Sink
-An Ionic 2 demo app with all the components
+An Ionic 2 demo app with all the components.
 
-There is nothing to see yet. Expect to see components added in just a few days!
+There is nothing much to see yet. Expect components added in a few days!
 
 ## Components
 
