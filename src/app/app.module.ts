@@ -10,6 +10,7 @@ import { ActionSheets } from '../pages/action-sheets/action-sheets';
 import { Alerts } from '../pages/alerts/alerts';
 import { Badges } from '../pages/badges/badges';
 import { Buttons } from '../pages/buttons/buttons';
+import { Cards } from '../pages/cards/cards';
 
 @NgModule({
   declarations: [
@@ -18,7 +19,8 @@ import { Buttons } from '../pages/buttons/buttons';
     ActionSheets,
     Alerts,
     Badges,
-    Buttons
+    Buttons,
+    Cards
   ],
   imports: [
     BrowserModule,
@@ -31,7 +33,8 @@ import { Buttons } from '../pages/buttons/buttons';
     ActionSheets,
     Alerts,
     Badges,
-    Buttons
+    Buttons,
+    Cards
   ],
   providers: [
     StatusBar,
