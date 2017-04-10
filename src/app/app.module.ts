@@ -11,6 +11,7 @@ import { Alerts } from '../pages/alerts/alerts';
 import { Badges } from '../pages/badges/badges';
 import { Buttons } from '../pages/buttons/buttons';
 import { Cards } from '../pages/cards/cards';
+import { Checkbox } from '../pages/checkbox/checkbox';
 
 @NgModule({
   declarations: [
@@ -20,7 +21,8 @@ import { Cards } from '../pages/cards/cards';
     Alerts,
     Badges,
     Buttons,
-    Cards
+    Cards,
+    Checkbox
   ],
   imports: [
     BrowserModule,
@@ -34,7 +36,8 @@ import { Cards } from '../pages/cards/cards';
     Alerts,
     Badges,
     Buttons,
-    Cards
+    Cards,
+    Checkbox
   ],
   providers: [
     StatusBar,

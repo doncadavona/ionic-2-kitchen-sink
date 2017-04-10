@@ -9,6 +9,7 @@ import { Alerts } from '../pages/alerts/alerts';
 import { Badges } from '../pages/badges/badges';
 import { Buttons } from '../pages/buttons/buttons';
 import { Cards } from '../pages/cards/cards';
+import { Checkbox } from '../pages/checkbox/checkbox';
 
 @Component({
   templateUrl: 'app.html'
@@ -30,7 +31,8 @@ export class MyApp {
       { title: 'Alerts', component: Alerts },
       { title: 'Badges', component: Badges },
       { title: 'Buttons', component: Buttons },
-      { title: 'Cards', component: Cards }
+      { title: 'Cards', component: Cards },
+      { title: 'Checkbox', component: Checkbox }
     ];
 
   }
