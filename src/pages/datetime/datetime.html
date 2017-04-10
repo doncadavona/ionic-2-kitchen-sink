@@ -1,0 +1,49 @@
+<ion-header>
+  <ion-navbar>
+    <button ion-button menuToggle>
+      <ion-icon name="menu"></ion-icon>
+    </button>
+    <ion-title>DateTime</ion-title>
+  </ion-navbar>
+</ion-header>
+
+<ion-content padding>
+
+	<ion-list>
+		<ion-list-header>Event</ion-list-header>
+		<ion-item>
+			<ion-label fixed>Name</ion-label>
+			<ion-input type="text"></ion-input>
+		</ion-item>
+
+		<ion-item>
+			<ion-label fixed>Location</ion-label>
+			<ion-input type="text"></ion-input>
+		</ion-item>
+	</ion-list>
+
+	<ion-list>
+		<ion-list-header>Start</ion-list-header>
+		<ion-item>
+		  <ion-label>Date</ion-label>
+		  <ion-datetime displayFormat="D MMM YYYY" pickerFormat="D MMM YYYY" [(ngModel)]="event.dateStarts"></ion-datetime>
+		</ion-item>
+		<ion-item>
+		  <ion-label>Time</ion-label>
+		  <ion-datetime displayFormat="h:mm A" pickerFormat="h mm A" [(ngModel)]="event.timeStarts"></ion-datetime>
+		</ion-item>
+	</ion-list>
+
+	<ion-list>
+		<ion-list-header>End</ion-list-header>
+		<ion-item>
+		  <ion-label>Date</ion-label>
+		  <ion-datetime displayFormat="D MMM YYYY" pickerFormat="D MMM YYYY" [(ngModel)]="event.dateEnds"></ion-datetime>
+		</ion-item>
+		<ion-item>
+		  <ion-label>Time</ion-label>
+		  <ion-datetime displayFormat="h:mm A" pickerFormat="h mm A" [(ngModel)]="event.timeEnds"></ion-datetime>
+		</ion-item>
+	</ion-list>
+
+</ion-content>

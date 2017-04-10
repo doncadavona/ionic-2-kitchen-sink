@@ -12,6 +12,7 @@ import { Badges } from '../pages/badges/badges';
 import { Buttons } from '../pages/buttons/buttons';
 import { Cards } from '../pages/cards/cards';
 import { Checkbox } from '../pages/checkbox/checkbox';
+import { Datetime } from '../pages/datetime/datetime';
 
 @NgModule({
   declarations: [
@@ -22,7 +23,8 @@ import { Checkbox } from '../pages/checkbox/checkbox';
     Badges,
     Buttons,
     Cards,
-    Checkbox
+    Checkbox,
+    Datetime
   ],
   imports: [
     BrowserModule,
@@ -37,7 +39,8 @@ import { Checkbox } from '../pages/checkbox/checkbox';
     Badges,
     Buttons,
     Cards,
-    Checkbox
+    Checkbox,
+    Datetime
   ],
   providers: [
     StatusBar,
