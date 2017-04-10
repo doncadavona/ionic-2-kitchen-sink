@@ -8,13 +8,15 @@ import { MyApp } from './app.component';
 import { HomePage } from '../pages/home/home';
 import { ActionSheets } from '../pages/action-sheets/action-sheets';
 import { Alerts } from '../pages/alerts/alerts';
+import { Badges } from '../pages/badges/badges';
 
 @NgModule({
   declarations: [
     MyApp,
     HomePage,
     ActionSheets,
-    Alerts
+    Alerts,
+    Badges
   ],
   imports: [
     BrowserModule,
@@ -25,7 +27,8 @@ import { Alerts } from '../pages/alerts/alerts';
     MyApp,
     HomePage,
     ActionSheets,
-    Alerts
+    Alerts,
+    Badges
   ],
   providers: [
     StatusBar,
