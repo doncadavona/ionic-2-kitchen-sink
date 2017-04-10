@@ -1,0 +1,130 @@
+<ion-header>
+  <ion-navbar>
+    <button ion-button menuToggle>
+      <ion-icon name="menu"></ion-icon>
+    </button>
+
+    <ion-title>Buttons</ion-title>
+    
+    <ion-buttons start>
+      <button ion-button icon-only>
+        <ion-icon name="contact"></ion-icon>
+      </button>
+    </ion-buttons>
+
+    <ion-buttons end>
+      <button ion-button icon-only>
+        <ion-icon name="search"></ion-icon>
+      </button>
+    </ion-buttons>
+
+  </ion-navbar>
+</ion-header>
+
+
+<ion-content>
+	
+	<div padding>
+		<h2>Basic</h2>
+
+		<button ion-button color="light">Light</button>
+		<button ion-button>Default</button>
+		<button ion-button color="secondary">Secondary</button>
+		<button ion-button color="danger">Danger</button>
+		<button ion-button color="dark">Dark</button>
+
+		<h2>Outline Style</h2>
+
+		<button ion-button color="light" outline>Light Outline</button>
+		<button ion-button outline>Primary Outline</button>
+		<button ion-button color="secondary" outline>Secondary Outline</button>
+		<button ion-button color="danger" outline>Danger Outline</button>
+		<button ion-button color="dark" outline>Dark Outline</button>
+
+		<h2>Clear Style</h2>
+
+		<button ion-button color="light" clear>Light Clear</button>
+		<button ion-button clear>Primary Clear</button>
+		<button ion-button color="secondary" clear>Secondary Clear</button>
+		<button ion-button color="danger" clear>Danger Clear</button>
+		<button ion-button color="dark" clear>Dark Clear</button>
+
+		<h2>Round</h2>
+
+		<button ion-button color="light" round>Light Round</button>
+		<button ion-button round>Primary Round</button>
+		<button ion-button color="secondary" round>Secondary Round</button>
+		<button ion-button color="danger" round>Danger Round</button>
+		<button ion-button color="dark" round>Dark Round</button>
+
+		<h2>Block</h2>
+
+		<button ion-button color="light" block>Light</button>
+		<button ion-button block>Default</button>
+		<button ion-button color="secondary" block>Secondary</button>
+		<button ion-button color="danger" block>Danger</button>
+		<button ion-button color="dark" block>Dark</button>
+	</div>
+
+	<div>
+		<h2 padding>Full</h2>
+
+		<button ion-button color="light" full>Light</button>
+		<button ion-button full>Default</button>
+		<button ion-button color="secondary" full>Secondary</button>
+		<button ion-button color="danger" full>Danger</button>
+		<button ion-button color="dark" full>Dark</button>
+	</div>
+
+	<div padding>
+		<h2>Sizes</h2>
+
+		<button ion-button small>Small</button>
+		<button ion-button>Default</button>
+		<button ion-button large>Large</button>
+
+		<h2>Icon Buttons</h2>
+
+		<!-- Float the icon left -->
+		<button ion-button icon-left>
+		  <ion-icon name="home"></ion-icon>
+		  Left Icon
+		</button>
+
+		<!-- Float the icon right -->
+		<button ion-button icon-right>
+		  Right Icon
+		  <ion-icon name="home"></ion-icon>
+		</button>
+
+		<!-- Only icon (no text) -->
+		<button ion-button icon-only>
+		  <ion-icon name="home"></ion-icon>
+		</button>
+
+		<h2>Buttons in Components</h2>
+
+		<ion-list>
+		  <ion-item>
+		    Left Icon Button
+		    <button ion-button outline item-right icon-left>
+		      <ion-icon name="star"></ion-icon>
+		      Left Icon
+		    </button>
+		  </ion-item>
+		  <ion-item>
+		    Left Icon Button
+		    <button ion-button outline item-right icon-left>
+		      <ion-icon name="star"></ion-icon>
+		      Left Icon
+		    </button>
+		  </ion-item>
+		</ion-list>
+
+		<p>The contact <ion-icon name="contact"></ion-icon> and search <ion-icon name="search"></ion-icon> icon buttons on the header of this page are also examples of buttons in components.</p>
+	</div>
+
+</ion-content>
+
+
+

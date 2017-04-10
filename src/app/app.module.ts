@@ -9,6 +9,7 @@ import { HomePage } from '../pages/home/home';
 import { ActionSheets } from '../pages/action-sheets/action-sheets';
 import { Alerts } from '../pages/alerts/alerts';
 import { Badges } from '../pages/badges/badges';
+import { Buttons } from '../pages/buttons/buttons';
 
 @NgModule({
   declarations: [
@@ -16,7 +17,8 @@ import { Badges } from '../pages/badges/badges';
     HomePage,
     ActionSheets,
     Alerts,
-    Badges
+    Badges,
+    Buttons
   ],
   imports: [
     BrowserModule,
@@ -28,7 +30,8 @@ import { Badges } from '../pages/badges/badges';
     HomePage,
     ActionSheets,
     Alerts,
-    Badges
+    Badges,
+    Buttons
   ],
   providers: [
     StatusBar,
