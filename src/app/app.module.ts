@@ -15,6 +15,7 @@ import { Checkbox } from '../pages/checkbox/checkbox';
 import { Datetime } from '../pages/datetime/datetime';
 import { Fabs } from '../pages/fabs/fabs';
 import { Gestures } from '../pages/gestures/gestures';
+import { Grid } from '../pages/grid/grid';
 
 @NgModule({
   declarations: [
@@ -28,7 +29,8 @@ import { Gestures } from '../pages/gestures/gestures';
     Checkbox,
     Datetime,
     Fabs,
-    Gestures
+    Gestures,
+    Grid
   ],
   imports: [
     BrowserModule,
@@ -46,7 +48,8 @@ import { Gestures } from '../pages/gestures/gestures';
     Checkbox,
     Datetime,
     Fabs,
-    Gestures
+    Gestures,
+    Grid
   ],
   providers: [
     StatusBar,

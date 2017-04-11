@@ -1,0 +1,69 @@
+<ion-header>
+  <ion-navbar>
+    <button ion-button menuToggle>
+      <ion-icon name="menu"></ion-icon>
+    </button>
+    <ion-title>Grid</ion-title>
+  </ion-navbar>
+</ion-header>
+
+<ion-content class="grid-basic-page">
+  <ion-row>
+    <ion-col><div>col</div></ion-col>
+    <ion-col><div>col</div></ion-col>
+    <ion-col><div>col</div></ion-col>
+    <ion-col>
+      <div>
+        col<br>
+        3 lines<br>
+        of text<br>
+      </div>
+    </ion-col>
+  </ion-row>
+
+  <ion-row align-items-center>
+    <ion-col><div>col</div></ion-col>
+    <ion-col><div>col</div></ion-col>
+    <ion-col><div>col</div></ion-col>
+    <ion-col>
+      <div>
+        col<br>
+        3 lines<br>
+        center<br>
+      </div>
+    </ion-col>
+  </ion-row>
+
+  <ion-row align-items-center>
+    <ion-col offset-3><div>col</div></ion-col>
+    <ion-col><div>col</div></ion-col>
+    <ion-col>
+      <div>
+        col<br>
+        3 lines<br>
+        center<br>
+      </div>
+    </ion-col>
+  </ion-row>
+
+  <ion-row align-items-baseline>
+    <ion-col offset-6><div>col</div></ion-col>
+    <ion-col>
+      <div>
+        col<br>
+        3 lines<br>
+        baseline<br>
+      </div>
+    </ion-col>
+  </ion-row>
+
+  <ion-row align-items-baseline>
+    <ion-col offset-9>
+      <div>
+        col<br>
+        2 lines<br>
+      </div>
+    </ion-col>
+  </ion-row>
+
+</ion-content>
