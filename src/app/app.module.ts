@@ -14,6 +14,7 @@ import { Cards } from '../pages/cards/cards';
 import { Checkbox } from '../pages/checkbox/checkbox';
 import { Datetime } from '../pages/datetime/datetime';
 import { Fabs } from '../pages/fabs/fabs';
+import { Gestures } from '../pages/gestures/gestures';
 
 @NgModule({
   declarations: [
@@ -26,7 +27,8 @@ import { Fabs } from '../pages/fabs/fabs';
     Cards,
     Checkbox,
     Datetime,
-    Fabs
+    Fabs,
+    Gestures
   ],
   imports: [
     BrowserModule,
@@ -43,7 +45,8 @@ import { Fabs } from '../pages/fabs/fabs';
     Cards,
     Checkbox,
     Datetime,
-    Fabs
+    Fabs,
+    Gestures
   ],
   providers: [
     StatusBar,
