@@ -16,6 +16,7 @@ import { Datetime } from '../pages/datetime/datetime';
 import { Fabs } from '../pages/fabs/fabs';
 import { Gestures } from '../pages/gestures/gestures';
 import { Grid } from '../pages/grid/grid';
+import { Icons } from '../pages/icons/icons';
 
 @NgModule({
   declarations: [
@@ -30,7 +31,8 @@ import { Grid } from '../pages/grid/grid';
     Datetime,
     Fabs,
     Gestures,
-    Grid
+    Grid,
+    Icons
   ],
   imports: [
     BrowserModule,
@@ -49,7 +51,8 @@ import { Grid } from '../pages/grid/grid';
     Datetime,
     Fabs,
     Gestures,
-    Grid
+    Grid,
+    Icons
   ],
   providers: [
     StatusBar,

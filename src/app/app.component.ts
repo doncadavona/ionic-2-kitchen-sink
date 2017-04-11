@@ -14,6 +14,7 @@ import { Datetime } from '../pages/datetime/datetime';
 import { Fabs } from '../pages/fabs/fabs';
 import { Gestures } from '../pages/gestures/gestures';
 import { Grid } from '../pages/grid/grid';
+import { Icons } from '../pages/icons/icons';
 
 @Component({
   templateUrl: 'app.html'
@@ -40,7 +41,8 @@ export class MyApp {
       { title: 'DateTime', component: Datetime },
       { title: 'FABs', component: Fabs },
       { title: 'Gestures', component: Gestures },
-      { title: 'Grid', component: Grid }
+      { title: 'Grid', component: Grid },
+      { title: 'Icons', component: Icons }
     ];
 
   }
