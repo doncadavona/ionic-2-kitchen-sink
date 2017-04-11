@@ -20,6 +20,7 @@ import { Icons } from '../pages/icons/icons';
 import { Inputs } from '../pages/inputs/inputs';
 import { Lists } from '../pages/lists/lists';
 import { Loading } from '../pages/loading/loading';
+import { Menus } from '../pages/menus/menus';
 
 @NgModule({
   declarations: [
@@ -38,7 +39,8 @@ import { Loading } from '../pages/loading/loading';
     Icons,
     Inputs,
     Lists,
-    Loading
+    Loading,
+    Menus
   ],
   imports: [
     BrowserModule,
@@ -61,7 +63,8 @@ import { Loading } from '../pages/loading/loading';
     Icons,
     Inputs,
     Lists,
-    Loading
+    Loading,
+    Menus
   ],
   providers: [
     StatusBar,

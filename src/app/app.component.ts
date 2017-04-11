@@ -18,6 +18,7 @@ import { Icons } from '../pages/icons/icons';
 import { Inputs } from '../pages/inputs/inputs';
 import { Lists } from '../pages/lists/lists';
 import { Loading } from '../pages/loading/loading';
+import { Menus } from '../pages/menus/menus';
 
 @Component({
   templateUrl: 'app.html'
@@ -48,7 +49,8 @@ export class MyApp {
       { title: 'Icons', component: Icons },
       { title: 'Inputs', component: Inputs },
       { title: 'Lists', component: Lists },
-      { title: 'Loading', component: Loading }
+      { title: 'Loading', component: Loading },
+      { title: 'Menus', component: Menus }
     ];
 
   }
