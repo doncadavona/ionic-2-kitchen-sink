@@ -13,6 +13,7 @@ import { Buttons } from '../pages/buttons/buttons';
 import { Cards } from '../pages/cards/cards';
 import { Checkbox } from '../pages/checkbox/checkbox';
 import { Datetime } from '../pages/datetime/datetime';
+import { Fabs } from '../pages/fabs/fabs';
 
 @NgModule({
   declarations: [
@@ -24,7 +25,8 @@ import { Datetime } from '../pages/datetime/datetime';
     Buttons,
     Cards,
     Checkbox,
-    Datetime
+    Datetime,
+    Fabs
   ],
   imports: [
     BrowserModule,
@@ -40,7 +42,8 @@ import { Datetime } from '../pages/datetime/datetime';
     Buttons,
     Cards,
     Checkbox,
-    Datetime
+    Datetime,
+    Fabs
   ],
   providers: [
     StatusBar,

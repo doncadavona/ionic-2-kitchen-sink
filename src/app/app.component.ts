@@ -11,6 +11,7 @@ import { Buttons } from '../pages/buttons/buttons';
 import { Cards } from '../pages/cards/cards';
 import { Checkbox } from '../pages/checkbox/checkbox';
 import { Datetime } from '../pages/datetime/datetime';
+import { Fabs } from '../pages/fabs/fabs';
 
 @Component({
   templateUrl: 'app.html'
@@ -34,7 +35,8 @@ export class MyApp {
       { title: 'Buttons', component: Buttons },
       { title: 'Cards', component: Cards },
       { title: 'Checkbox', component: Checkbox },
-      { title: 'DateTime', component: Datetime }
+      { title: 'DateTime', component: Datetime },
+      { title: 'FABs', component: Fabs }
     ];
 
   }
