@@ -19,6 +19,7 @@ import { Grid } from '../pages/grid/grid';
 import { Icons } from '../pages/icons/icons';
 import { Inputs } from '../pages/inputs/inputs';
 import { Lists } from '../pages/lists/lists';
+import { Loading } from '../pages/loading/loading';
 
 @NgModule({
   declarations: [
@@ -36,7 +37,8 @@ import { Lists } from '../pages/lists/lists';
     Grid,
     Icons,
     Inputs,
-    Lists
+    Lists,
+    Loading
   ],
   imports: [
     BrowserModule,
@@ -58,7 +60,8 @@ import { Lists } from '../pages/lists/lists';
     Grid,
     Icons,
     Inputs,
-    Lists
+    Lists,
+    Loading
   ],
   providers: [
     StatusBar,
