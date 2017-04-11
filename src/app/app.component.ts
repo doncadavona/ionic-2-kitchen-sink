@@ -16,6 +16,7 @@ import { Gestures } from '../pages/gestures/gestures';
 import { Grid } from '../pages/grid/grid';
 import { Icons } from '../pages/icons/icons';
 import { Inputs } from '../pages/inputs/inputs';
+import { Lists } from '../pages/lists/lists';
 
 @Component({
   templateUrl: 'app.html'
@@ -44,7 +45,8 @@ export class MyApp {
       { title: 'Gestures', component: Gestures },
       { title: 'Grid', component: Grid },
       { title: 'Icons', component: Icons },
-      { title: 'Inputs', component: Inputs }
+      { title: 'Inputs', component: Inputs },
+      { title: 'Lists', component: Lists }
     ];
 
   }

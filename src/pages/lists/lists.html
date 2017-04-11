@@ -1,0 +1,508 @@
+<ion-header>
+  <ion-navbar>
+    <button ion-button menuToggle>
+      <ion-icon name="menu"></ion-icon>
+    </button>
+    <ion-title>Lists</ion-title>
+  </ion-navbar>
+</ion-header>
+
+
+<ion-content>
+
+	<div padding>
+		<h2>Basic</h2>
+	</div>
+
+	<ion-list>
+	  <button ion-item *ngFor="let item of items" (click)="itemSelected(item)">
+	    {{ item.name }}
+	  </button>  
+	</ion-list>
+
+	<div padding>
+		<h2>No Lines</h2>
+	</div>
+
+	<ion-list no-lines>
+	  <button ion-item *ngFor="let item of items" (click)="itemSelected(item)">
+	    {{ item.name }}
+	  </button>  
+	</ion-list>
+
+	<div padding>
+		<h2>Inset Lines</h2>
+	</div>
+
+	<ion-list inset>
+	  <button ion-item *ngFor="let item of items" (click)="itemSelected(item)">
+	    {{ item.name }}
+	  </button>  
+	</ion-list>
+
+	<div padding>
+		<h2>List Dividers</h2>
+	</div>
+
+	<ion-item-group>
+    <ion-item-divider color="light">A</ion-item-divider>
+    <ion-item>Angola</ion-item>
+    <ion-item>Argentina</ion-item>
+  </ion-item-group>
+  <ion-item-group>
+    <ion-item-divider color="light">B</ion-item-divider>
+    <ion-item>Bangladesh</ion-item>
+    <ion-item>Belarus</ion-item>
+  </ion-item-group>
+  <ion-item-group>
+    <ion-item-divider color="light">C</ion-item-divider>
+    <ion-item>Cambodia</ion-item>
+    <ion-item>Camerono</ion-item>
+  </ion-item-group>
+
+  <div padding>
+		<h2>List Headers</h2>
+	</div>
+
+  <ion-list>
+	  <ion-list-header>
+	    Action
+	  </ion-list-header>
+	  <ion-item>Terminator II</ion-item>
+	  <ion-item>The Empire Strikes Back</ion-item>
+	  <ion-item>Blade Runner</ion-item>
+
+	  <ion-list-header>
+	    Comedy
+	  </ion-list-header>
+	  <ion-item>Airplaine!</ion-item>
+	  <ion-item>Caddyshack</ion-item>
+	  <ion-item>Coming To America</ion-item>
+	</ion-list>
+
+	<div padding>
+		<h2>Avatar List</h2>
+	</div>
+
+	<ion-list>
+	  <ion-item>
+	    <ion-avatar item-left>
+	      <img src="http://placehold.it/64">
+	    </ion-avatar>
+	    <h2>Duterte</h2>
+	    <p>Filipino</p>
+	  </ion-item>
+	  <ion-item>
+	    <ion-avatar item-left>
+	      <img src="http://placehold.it/64">
+	    </ion-avatar>
+	    <h2>Trump</h2>
+	    <p>American</p>
+	  </ion-item>
+	  <ion-item>
+	    <ion-avatar item-left>
+	      <img src="http://placehold.it/64">
+	    </ion-avatar>
+	    <h2>Putin</h2>
+	    <p>Russian</p>
+	  </ion-item>
+	</ion-list>
+
+	<div padding>
+		<h2>Multi-line List</h2>
+	</div>
+
+	<ion-list>
+    <ion-list-header>
+      Recent Conversations
+    </ion-list-header>
+
+    <ion-item>
+      <ion-avatar item-left>
+        <img src="http://placehold.it/64">
+      </ion-avatar>
+      <h2>Finn</h2>
+      <h3>I'm a big deal</h3>
+      <p>Listen, I've had a pretty messed up day...</p>
+    </ion-item>
+
+    <ion-item>
+      <ion-avatar item-left>
+        <img src="http://placehold.it/64">
+      </ion-avatar>
+      <h2>Han</h2>
+      <h3>Look, kid...</h3>
+      <p>I've got enough on my plate as it is, and I...</p>
+    </ion-item>
+
+    <ion-item>
+      <ion-avatar item-left>
+        <img src="http://placehold.it/64">
+      </ion-avatar>
+      <h2>Rey</h2>
+      <h3>I can handle myself</h3>
+      <p>You will remove these restraints and leave...</p>
+    </ion-item>
+
+    <ion-item>
+      <ion-avatar item-left>
+        <img src="http://placehold.it/64">
+      </ion-avatar>
+      <h2>Luke</h2>
+      <h3>Your thoughts betray you</h3>
+      <p>I feel the good in you, the conflict...</p>
+    </ion-item>
+  </ion-list>
+
+  <ion-list>
+    <ion-list-header>
+      Online
+    </ion-list-header>
+
+    <ion-item>
+      <ion-avatar item-left>
+        <img src="http://placehold.it/64">
+      </ion-avatar>
+      <h2>Poe</h2>
+      <h3>New Ride</h3>
+      <p>I just upgraded my X-Wing. Next time...</p>
+    </ion-item>
+
+    <ion-item>
+      <ion-avatar item-left>
+        <img src="http://placehold.it/64">
+      </ion-avatar>
+      <h2>Ben</h2>
+      <h3>Move Along</h3>
+      <p>These aren't the droids you're looking for...</p>
+    </ion-item>
+
+    <ion-item>
+      <ion-avatar item-left>
+        <img src="http://placehold.it/64">
+      </ion-avatar>
+      <h2>Leia</h2>
+      <h3>You're My Only Hope</h3>
+      <p>I've placed information vital to the survival...</p>
+    </ion-item>
+
+    <ion-item>
+      <ion-avatar item-left>
+        <img src="http://placehold.it/64">
+      </ion-avatar>
+      <h2>Yoda</h2>
+      <h3>Size matters not</h3>
+      <p>Do or do not. There is no try...</p>
+    </ion-item>
+  </ion-list>
+
+  <div padding>
+  	<h2>Sliding List</h2>
+  </div>
+
+  <div class="outer-content">
+
+	  <ion-list>
+	    <ion-list-header>
+	      Busters
+	    </ion-list-header>
+
+	    <ion-item-sliding>
+	      <ion-item>
+	        <ion-avatar item-left>
+	          <img src="http://placehold.it/64">
+	        </ion-avatar>
+	        <h2>Venkman</h2>
+	        <p>Back off man, I'm a scientist.</p>
+	      </ion-item>
+	      <ion-item-options>
+	        <button ion-button color="light" icon-left>
+	          <ion-icon name="ios-more"></ion-icon>
+	          More
+	        </button>
+	        <button ion-button color="primary" icon-left>
+	          <ion-icon name="text"></ion-icon>
+	          Text
+	        </button>
+	        <button ion-button color="secondary" icon-left>
+	          <ion-icon name="call"></ion-icon>
+	          Call
+	        </button>
+	      </ion-item-options>
+	    </ion-item-sliding>
+
+	    <ion-item-sliding>
+	      <ion-item>
+	        <ion-avatar item-left>
+	          <img src="http://placehold.it/64">
+	        </ion-avatar>
+	        <h2>Egon</h2>
+	        <p>We're gonna go full stream.</p>
+	      </ion-item>
+	      <ion-item-options>
+	        <button ion-button color="light" icon-left>
+	          <ion-icon name="ios-more"></ion-icon>
+	          More
+	        </button>
+	        <button ion-button color="primary" icon-left>
+	          <ion-icon name="text"></ion-icon>
+	          Text
+	        </button>
+	        <button ion-button color="secondary" icon-left>
+	          <ion-icon name="call"></ion-icon>
+	          Call
+	        </button>
+	      </ion-item-options>
+	    </ion-item-sliding>
+
+	    <ion-item-sliding>
+	      <ion-item>
+	        <ion-avatar item-left>
+	          <img src="http://placehold.it/64">
+	        </ion-avatar>
+	        <h2>Ray</h2>
+	        <p>Ugly little spud, isn't he?</p>
+	      </ion-item>
+	      <ion-item-options>
+	        <button ion-button color="light" icon-left>
+	          <ion-icon name="ios-more"></ion-icon>
+	          More
+	        </button>
+	        <button ion-button color="primary" icon-left>
+	          <ion-icon name="text"></ion-icon>
+	          Text
+	        </button>
+	        <button ion-button color="secondary" icon-left>
+	          <ion-icon name="call"></ion-icon>
+	          Call
+	        </button>
+	      </ion-item-options>
+	    </ion-item-sliding>
+
+	    <ion-item-sliding>
+	      <ion-item>
+	        <ion-avatar item-left>
+	          <img src="http://placehold.it/64">
+	        </ion-avatar>
+	        <h2>Winston</h2>
+	        <p>That's a big Twinkie.</p>
+	      </ion-item>
+	      <ion-item-options>
+	        <button ion-button color="light" icon-left>
+	          <ion-icon name="ios-more"></ion-icon>
+	          More
+	        </button>
+	        <button ion-button color="primary" icon-left>
+	          <ion-icon name="text"></ion-icon>
+	          Text
+	        </button>
+	        <button ion-button color="secondary" icon-left>
+	          <ion-icon name="call"></ion-icon>
+	          Call
+	        </button>
+	      </ion-item-options>
+	    </ion-item-sliding>
+
+	    <ion-item-sliding>
+	      <ion-item>
+	        <ion-avatar item-left>
+	          <img src="http://placehold.it/64">
+	        </ion-avatar>
+	        <h2>Tully</h2>
+	        <p>Okay, who brought the dog?</p>
+	      </ion-item>
+	      <ion-item-options>
+	        <button ion-button color="light" icon-left>
+	          <ion-icon name="ios-more"></ion-icon>
+	          More
+	        </button>
+	        <button ion-button color="primary" icon-left>
+	          <ion-icon name="text"></ion-icon>
+	          Text
+	        </button>
+	        <button ion-button color="secondary" icon-left>
+	          <ion-icon name="call"></ion-icon>
+	          Call
+	        </button>
+	      </ion-item-options>
+	    </ion-item-sliding>
+
+	    <ion-item-sliding>
+	      <ion-item>
+	        <ion-avatar item-left>
+	          <img src="http://placehold.it/64">
+	        </ion-avatar>
+	        <h2>Dana</h2>
+	        <p>I am The Gatekeeper!</p>
+	      </ion-item>
+	      <ion-item-options>
+	        <button ion-button color="light" icon-left>
+	          <ion-icon name="ios-more"></ion-icon>
+	          More
+	        </button>
+	        <button ion-button color="primary" icon-left>
+	          <ion-icon name="text"></ion-icon>
+	          Text
+	        </button>
+	        <button ion-button color="secondary"icon-left >
+	          <ion-icon name="call"></ion-icon>
+	          Call
+	        </button>
+	      </ion-item-options>
+	    </ion-item-sliding>
+
+	  </ion-list>
+
+	  <ion-list>
+	    <ion-list-header>
+	      Ghosts
+	    </ion-list-header>
+
+	    <ion-item-sliding>
+	      <ion-item>
+	        <ion-avatar item-left>
+	          <img src="http://placehold.it/64">
+	        </ion-avatar>
+	        <h2>Slimer</h2>
+	        <p>Boo!</p>
+	      </ion-item>
+	      <ion-item-options>
+	        <button ion-button color="light" icon-left>
+	          <ion-icon name="ios-more"></ion-icon>
+	          More
+	        </button>
+	        <button ion-button color="primary" icon-left>
+	          <ion-icon name="text"></ion-icon>
+	          Text
+	        </button>
+	        <button ion-button color="secondary" icon-left>
+	          <ion-icon name="call"></ion-icon>
+	          Call
+	        </button>
+	      </ion-item-options>
+	    </ion-item-sliding>
+
+	    <ion-item-sliding>
+	      <ion-item>
+	        <ion-avatar item-left>
+	          <img src="http://placehold.it/64">
+	        </ion-avatar>
+	        <h2>Stay Puft Marshmallow Man</h2>
+	        <p>Never cross the streams!</p>
+	      </ion-item>
+	      <ion-item-options>
+	        <button ion-button color="light" icon-left>
+	          <ion-icon name="ios-more"></ion-icon>
+	          More
+	        </button>
+	        <button ion-button color="primary" icon-left>
+	          <ion-icon name="text"></ion-icon>
+	          Text
+	        </button>
+	        <button ion-button color="secondary" icon-left>
+	          <ion-icon name="call"></ion-icon>
+	          Call
+	        </button>
+	      </ion-item-options>
+	    </ion-item-sliding>
+
+	    <ion-item-sliding>
+	      <ion-item>
+	        <ion-avatar item-left>
+	          <img src="http://placehold.it/64">
+	        </ion-avatar>
+	        <h2>Gozer</h2>
+	        <p>Are you a God?</p>
+	      </ion-item>
+	      <ion-item-options>
+	        <button ion-button color="light" icon-left>
+	          <ion-icon name="ios-more"></ion-icon>
+	          More
+	        </button>
+	        <button ion-button color="primary" icon-left>
+	          <ion-icon name="text"></ion-icon>
+	          Text
+	        </button>
+	        <button ion-button color="secondary" icon-left>
+	          <ion-icon name="call"></ion-icon>
+	          Call
+	        </button>
+	      </ion-item-options>
+	    </ion-item-sliding>
+
+	  </ion-list>
+
+	 </div>
+
+	 <div padding>
+	 	<h2>Thumbnail List</h2>
+	 </div>
+
+	 <ion-list>
+
+    <ion-item>
+      <ion-thumbnail item-left>
+        <img src="http://placehold.it/64">
+      </ion-thumbnail>
+      <h2>My Neighbor Totoro</h2>
+      <p>Hayao Miyazaki • 1988</p>
+      <button ion-button clear item-right>View</button>
+    </ion-item>
+
+    <ion-item>
+      <ion-thumbnail item-left>
+        <img src="http://placehold.it/64">
+      </ion-thumbnail>
+      <h2>Raiders of the Lost Ark</h2>
+      <p>Steven Spielberg • 1981</p>
+      <button ion-button clear item-right>View</button>
+    </ion-item>
+
+    <ion-item>
+      <ion-thumbnail item-left>
+        <img src="http://placehold.it/64">
+      </ion-thumbnail>
+      <h2>Ghostbusters</h2>
+      <p>Ivan Reitman • 1984</p>
+      <button ion-button clear item-right>View</button>
+    </ion-item>
+
+    <ion-item>
+      <ion-thumbnail item-left>
+        <img src="http://placehold.it/64">
+      </ion-thumbnail>
+      <h2>Batman</h2>
+      <p>Tim Burton • 1988</p>
+      <button ion-button clear item-right>View</button>
+    </ion-item>
+
+    <ion-item>
+      <ion-thumbnail item-left>
+        <img src="http://placehold.it/64">
+      </ion-thumbnail>
+      <h2>Back to the Future</h2>
+      <p>Robert Zemeckis • 1985</p>
+      <button ion-button clear item-right>View</button>
+    </ion-item>
+
+    <ion-item>
+      <ion-thumbnail item-left>
+        <img src="http://placehold.it/64">
+      </ion-thumbnail>
+      <h2>The Empire Strikes Back</h2>
+      <p>Irvin Kershner • 1980</p>
+      <button ion-button clear item-right>View</button>
+    </ion-item>
+
+    <ion-item>
+      <ion-thumbnail item-left>
+        <img src="http://placehold.it/64">
+      </ion-thumbnail>
+      <h2>The Terminator</h2>
+      <p>James Cameron • 1984</p>
+      <button ion-button clear item-right>View</button>
+    </ion-item>
+
+  </ion-list>
+
+</ion-content>
