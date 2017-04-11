@@ -15,6 +15,7 @@ import { Fabs } from '../pages/fabs/fabs';
 import { Gestures } from '../pages/gestures/gestures';
 import { Grid } from '../pages/grid/grid';
 import { Icons } from '../pages/icons/icons';
+import { Inputs } from '../pages/inputs/inputs';
 
 @Component({
   templateUrl: 'app.html'
@@ -42,7 +43,8 @@ export class MyApp {
       { title: 'FABs', component: Fabs },
       { title: 'Gestures', component: Gestures },
       { title: 'Grid', component: Grid },
-      { title: 'Icons', component: Icons }
+      { title: 'Icons', component: Icons },
+      { title: 'Inputs', component: Inputs }
     ];
 
   }
