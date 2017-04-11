@@ -17,4 +17,5 @@ The following are the components currently included. More to come until all are 
 * Grid
 * Icons
 * Inputs
+* Lists
 * Menus
