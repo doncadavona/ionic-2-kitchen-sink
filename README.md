@@ -10,7 +10,6 @@ The following are the components currently included. More to come until all are 
 * Badges
 * Buttons
 * Cards
-* Menus
 * Checkbox
 * DateTime
 * FABs
@@ -18,3 +17,4 @@ The following are the components currently included. More to come until all are 
 * Grid
 * Icons
 * Inputs
+* Menus
