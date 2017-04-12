@@ -19,6 +19,7 @@ import { Inputs } from '../pages/inputs/inputs';
 import { Lists } from '../pages/lists/lists';
 import { Loading } from '../pages/loading/loading';
 import { Menus } from '../pages/menus/menus';
+import { Modals } from '../pages/modals/modals';
 
 @Component({
   templateUrl: 'app.html'
@@ -50,7 +51,8 @@ export class MyApp {
       { title: 'Inputs', component: Inputs },
       { title: 'Lists', component: Lists },
       { title: 'Loading', component: Loading },
-      { title: 'Menus', component: Menus }
+      { title: 'Menus', component: Menus },
+      { title: 'Modals', component: Modals }
     ];
 
   }

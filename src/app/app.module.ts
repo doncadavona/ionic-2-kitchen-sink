@@ -21,6 +21,8 @@ import { Inputs } from '../pages/inputs/inputs';
 import { Lists } from '../pages/lists/lists';
 import { Loading } from '../pages/loading/loading';
 import { Menus } from '../pages/menus/menus';
+import { Modals } from '../pages/modals/modals';
+import { ModalPage } from '../pages/modals/modal-page';
 
 @NgModule({
   declarations: [
@@ -40,7 +42,9 @@ import { Menus } from '../pages/menus/menus';
     Inputs,
     Lists,
     Loading,
-    Menus
+    Menus,
+    Modals,
+    ModalPage
   ],
   imports: [
     BrowserModule,
@@ -64,7 +68,9 @@ import { Menus } from '../pages/menus/menus';
     Inputs,
     Lists,
     Loading,
-    Menus
+    Menus,
+    Modals,
+    ModalPage
   ],
   providers: [
     StatusBar,
