@@ -23,6 +23,7 @@ import { Modals } from '../pages/modals/modals';
 import { Navigation } from '../pages/navigation/navigation';
 import { Popover } from '../pages/popover/popover';
 import { Radio } from '../pages/radio/radio';
+import { Range } from '../pages/range/range';
 
 @Component({
   templateUrl: 'app.html'
@@ -58,7 +59,8 @@ export class MyApp {
       { title: 'Modals', component: Modals },
       { title: 'Navigation', component: Navigation },
       { title: 'Popover', component: Popover },
-      { title: 'Radio', component: Radio }
+      { title: 'Radio', component: Radio },
+      { title: 'Range', component: Range }
     ];
 
   }

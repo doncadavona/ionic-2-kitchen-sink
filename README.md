@@ -24,3 +24,4 @@ The following are the components currently included. More to come until all are 
 * Navigation
 * Popover
 * Radio
+* Range

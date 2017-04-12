@@ -28,6 +28,7 @@ import { NavigationDetails } from '../pages/navigation/navigation-details';
 import { Popover } from '../pages/popover/popover';
 import { PopoverDetails } from '../pages/popover/popover-details';
 import { Radio } from '../pages/radio/radio';
+import { Range } from '../pages/range/range';
 
 @NgModule({
   declarations: [
@@ -54,7 +55,8 @@ import { Radio } from '../pages/radio/radio';
     NavigationDetails,
     Popover,
     PopoverDetails,
-    Radio
+    Radio,
+    Range
   ],
   imports: [
     BrowserModule,
@@ -85,7 +87,8 @@ import { Radio } from '../pages/radio/radio';
     NavigationDetails,
     Popover,
     PopoverDetails,
-    Radio
+    Radio,
+    Range
   ],
   providers: [
     StatusBar,
