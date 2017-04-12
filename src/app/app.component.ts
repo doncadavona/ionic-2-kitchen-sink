@@ -20,6 +20,7 @@ import { Lists } from '../pages/lists/lists';
 import { Loading } from '../pages/loading/loading';
 import { Menus } from '../pages/menus/menus';
 import { Modals } from '../pages/modals/modals';
+import { Navigation } from '../pages/navigation/navigation';
 
 @Component({
   templateUrl: 'app.html'
@@ -52,7 +53,8 @@ export class MyApp {
       { title: 'Lists', component: Lists },
       { title: 'Loading', component: Loading },
       { title: 'Menus', component: Menus },
-      { title: 'Modals', component: Modals }
+      { title: 'Modals', component: Modals },
+      { title: 'Navigation', component: Navigation }
     ];
 
   }

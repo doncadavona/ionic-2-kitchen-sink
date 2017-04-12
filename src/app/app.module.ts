@@ -23,6 +23,8 @@ import { Loading } from '../pages/loading/loading';
 import { Menus } from '../pages/menus/menus';
 import { Modals } from '../pages/modals/modals';
 import { ModalPage } from '../pages/modals/modal-page';
+import { Navigation } from '../pages/navigation/navigation';
+import { NavigationDetails } from '../pages/navigation/navigation-details';
 
 @NgModule({
   declarations: [
@@ -44,7 +46,9 @@ import { ModalPage } from '../pages/modals/modal-page';
     Loading,
     Menus,
     Modals,
-    ModalPage
+    ModalPage,
+    Navigation,
+    NavigationDetails
   ],
   imports: [
     BrowserModule,
@@ -70,7 +74,9 @@ import { ModalPage } from '../pages/modals/modal-page';
     Loading,
     Menus,
     Modals,
-    ModalPage
+    ModalPage,
+    Navigation,
+    NavigationDetails
   ],
   providers: [
     StatusBar,
