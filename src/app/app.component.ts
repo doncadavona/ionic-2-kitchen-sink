@@ -24,6 +24,7 @@ import { Navigation } from '../pages/navigation/navigation';
 import { Popover } from '../pages/popover/popover';
 import { Radio } from '../pages/radio/radio';
 import { Range } from '../pages/range/range';
+import { Searchbar } from '../pages/searchbar/searchbar';
 
 @Component({
   templateUrl: 'app.html'
@@ -60,7 +61,8 @@ export class MyApp {
       { title: 'Navigation', component: Navigation },
       { title: 'Popover', component: Popover },
       { title: 'Radio', component: Radio },
-      { title: 'Range', component: Range }
+      { title: 'Range', component: Range },
+      { title: 'Searchbar', component: Searchbar }
     ];
 
   }
