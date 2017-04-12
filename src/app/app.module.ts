@@ -30,6 +30,7 @@ import { PopoverDetails } from '../pages/popover/popover-details';
 import { Radio } from '../pages/radio/radio';
 import { Range } from '../pages/range/range';
 import { Searchbar } from '../pages/searchbar/searchbar';
+import { Segment } from '../pages/segment/segment';
 
 @NgModule({
   declarations: [
@@ -58,7 +59,8 @@ import { Searchbar } from '../pages/searchbar/searchbar';
     PopoverDetails,
     Radio,
     Range,
-    Searchbar
+    Searchbar,
+    Segment
   ],
   imports: [
     BrowserModule,
@@ -91,7 +93,8 @@ import { Searchbar } from '../pages/searchbar/searchbar';
     PopoverDetails,
     Radio,
     Range,
-    Searchbar
+    Searchbar,
+    Segment
   ],
   providers: [
     StatusBar,
