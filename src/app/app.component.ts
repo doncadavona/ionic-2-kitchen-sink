@@ -21,6 +21,7 @@ import { Loading } from '../pages/loading/loading';
 import { Menus } from '../pages/menus/menus';
 import { Modals } from '../pages/modals/modals';
 import { Navigation } from '../pages/navigation/navigation';
+import { Popover } from '../pages/popover/popover';
 
 @Component({
   templateUrl: 'app.html'
@@ -54,7 +55,8 @@ export class MyApp {
       { title: 'Loading', component: Loading },
       { title: 'Menus', component: Menus },
       { title: 'Modals', component: Modals },
-      { title: 'Navigation', component: Navigation }
+      { title: 'Navigation', component: Navigation },
+      { title: 'Popover', component: Popover }
     ];
 
   }

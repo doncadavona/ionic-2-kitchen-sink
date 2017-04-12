@@ -25,6 +25,8 @@ import { Modals } from '../pages/modals/modals';
 import { ModalPage } from '../pages/modals/modal-page';
 import { Navigation } from '../pages/navigation/navigation';
 import { NavigationDetails } from '../pages/navigation/navigation-details';
+import { Popover } from '../pages/popover/popover';
+import { PopoverDetails } from '../pages/popover/popover-details';
 
 @NgModule({
   declarations: [
@@ -48,7 +50,9 @@ import { NavigationDetails } from '../pages/navigation/navigation-details';
     Modals,
     ModalPage,
     Navigation,
-    NavigationDetails
+    NavigationDetails,
+    Popover,
+    PopoverDetails
   ],
   imports: [
     BrowserModule,
@@ -76,7 +80,9 @@ import { NavigationDetails } from '../pages/navigation/navigation-details';
     Modals,
     ModalPage,
     Navigation,
-    NavigationDetails
+    NavigationDetails,
+    Popover,
+    PopoverDetails
   ],
   providers: [
     StatusBar,
