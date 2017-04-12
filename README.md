@@ -21,3 +21,4 @@ The following are the components currently included. More to come until all are 
 * Loading
 * Menus
 * Modals
+* Navigation
