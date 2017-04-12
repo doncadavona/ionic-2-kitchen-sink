@@ -27,6 +27,7 @@ import { Navigation } from '../pages/navigation/navigation';
 import { NavigationDetails } from '../pages/navigation/navigation-details';
 import { Popover } from '../pages/popover/popover';
 import { PopoverDetails } from '../pages/popover/popover-details';
+import { Radio } from '../pages/radio/radio';
 
 @NgModule({
   declarations: [
@@ -52,7 +53,8 @@ import { PopoverDetails } from '../pages/popover/popover-details';
     Navigation,
     NavigationDetails,
     Popover,
-    PopoverDetails
+    PopoverDetails,
+    Radio
   ],
   imports: [
     BrowserModule,
@@ -82,7 +84,8 @@ import { PopoverDetails } from '../pages/popover/popover-details';
     Navigation,
     NavigationDetails,
     Popover,
-    PopoverDetails
+    PopoverDetails,
+    Radio
   ],
   providers: [
     StatusBar,
