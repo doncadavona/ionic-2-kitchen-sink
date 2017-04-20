@@ -26,6 +26,7 @@ import { Radio } from '../pages/radio/radio';
 import { Range } from '../pages/range/range';
 import { Searchbar } from '../pages/searchbar/searchbar';
 import { Segment } from '../pages/segment/segment';
+import { Selects } from '../pages/selects/selects';
 
 @Component({
   templateUrl: 'app.html'
@@ -64,7 +65,8 @@ export class MyApp {
       { title: 'Radio', component: Radio },
       { title: 'Range', component: Range },
       { title: 'Searchbar', component: Searchbar },
-      { title: 'Segment', component: Segment }
+      { title: 'Segment', component: Segment },
+      { title: 'Selects', component: Selects }
     ];
 
   }

@@ -31,6 +31,7 @@ import { Radio } from '../pages/radio/radio';
 import { Range } from '../pages/range/range';
 import { Searchbar } from '../pages/searchbar/searchbar';
 import { Segment } from '../pages/segment/segment';
+import { Selects } from '../pages/selects/selects';
 
 @NgModule({
   declarations: [
@@ -60,7 +61,8 @@ import { Segment } from '../pages/segment/segment';
     Radio,
     Range,
     Searchbar,
-    Segment
+    Segment,
+    Selects
   ],
   imports: [
     BrowserModule,
@@ -94,7 +96,8 @@ import { Segment } from '../pages/segment/segment';
     Radio,
     Range,
     Searchbar,
-    Segment
+    Segment,
+    Selects
   ],
   providers: [
     StatusBar,
