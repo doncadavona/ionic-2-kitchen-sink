@@ -27,6 +27,7 @@ import { Range } from '../pages/range/range';
 import { Searchbar } from '../pages/searchbar/searchbar';
 import { Segment } from '../pages/segment/segment';
 import { Selects } from '../pages/selects/selects';
+import { Slides } from '../pages/slides/slides';
 
 @Component({
   templateUrl: 'app.html'
@@ -66,7 +67,8 @@ export class MyApp {
       { title: 'Range', component: Range },
       { title: 'Searchbar', component: Searchbar },
       { title: 'Segment', component: Segment },
-      { title: 'Selects', component: Selects }
+      { title: 'Selects', component: Selects },
+      { title: 'Slides', component: Slides }
     ];
 
   }
