@@ -28,6 +28,9 @@ import { Searchbar } from '../pages/searchbar/searchbar';
 import { Segment } from '../pages/segment/segment';
 import { Selects } from '../pages/selects/selects';
 import { Slides } from '../pages/slides/slides';
+import { Tabs } from '../pages/tabs/tabs';
+import { Tab1 } from '../pages/tabs/tab1';
+import { Tab2 } from '../pages/tabs/tab2';
 
 @Component({
   templateUrl: 'app.html'
@@ -68,7 +71,8 @@ export class MyApp {
       { title: 'Searchbar', component: Searchbar },
       { title: 'Segment', component: Segment },
       { title: 'Selects', component: Selects },
-      { title: 'Slides', component: Slides }
+      { title: 'Slides', component: Slides },
+      { title: 'Tabs', component: Tabs }
     ];
 
   }
