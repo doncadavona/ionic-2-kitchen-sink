@@ -3,8 +3,6 @@ An Ionic 2 demo app with all the components.
 
 ## Components
 
-The following are the components currently included. More to come until all are added.
-
 * Action Sheets
 * Alerts
 * Badges
