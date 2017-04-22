@@ -37,6 +37,7 @@ import { Tabs } from '../pages/tabs/tabs';
 import { Tab1 } from '../pages/tabs/tab1';
 import { Tab2 } from '../pages/tabs/tab2';
 import { Toast } from '../pages/toast/toast';
+import { Toggle } from '../pages/toggle/toggle';
 
 @NgModule({
   declarations: [
@@ -73,6 +74,7 @@ import { Toast } from '../pages/toast/toast';
     Tab1,
     Tab2,
     Toast,
+    Toggle,
   ],
   imports: [
     BrowserModule,
@@ -113,6 +115,7 @@ import { Toast } from '../pages/toast/toast';
     Tab1,
     Tab2,
     Toast,
+    Toggle,
   ],
   providers: [
     StatusBar,
