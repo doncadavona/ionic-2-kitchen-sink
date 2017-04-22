@@ -32,3 +32,4 @@ The following are the components currently included. More to come until all are 
 * Tabs
 * Toast
 * Toggle
+* Toolbar

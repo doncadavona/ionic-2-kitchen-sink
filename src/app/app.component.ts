@@ -33,6 +33,7 @@ import { Tab1 } from '../pages/tabs/tab1';
 import { Tab2 } from '../pages/tabs/tab2';
 import { Toast } from '../pages/toast/toast';
 import { Toggle } from '../pages/toggle/toggle';
+import { Toolbar } from '../pages/toolbar/toolbar';
 
 @Component({
   templateUrl: 'app.html'
@@ -76,7 +77,8 @@ export class MyApp {
       { title: 'Slides', component: Slides },
       { title: 'Tabs', component: Tabs },
       { title: 'Toast', component: Toast },
-      { title: 'Toggle', component: Toggle }
+      { title: 'Toggle', component: Toggle },
+      { title: 'Toolbar', component: Toolbar }
     ];
 
   }
