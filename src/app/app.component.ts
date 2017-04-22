@@ -31,6 +31,7 @@ import { Slides } from '../pages/slides/slides';
 import { Tabs } from '../pages/tabs/tabs';
 import { Tab1 } from '../pages/tabs/tab1';
 import { Tab2 } from '../pages/tabs/tab2';
+import { Toast } from '../pages/toast/toast';
 
 @Component({
   templateUrl: 'app.html'
@@ -72,7 +73,8 @@ export class MyApp {
       { title: 'Segment', component: Segment },
       { title: 'Selects', component: Selects },
       { title: 'Slides', component: Slides },
-      { title: 'Tabs', component: Tabs }
+      { title: 'Tabs', component: Tabs },
+      { title: 'Toast', component: Toast }
     ];
 
   }
