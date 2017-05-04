@@ -51,7 +51,7 @@ $ `ionic lab`
 
 You'll see:
 
-![Ionic 2 Kitchen Sink in Ionic Lab](/src/assets/images/ionic_lab.jpg?raw=true "Ionic 2 Kitchen Sink in Ionic Lab")
+![Ionic 2 Kitchen Sink in Ionic Lab](/src/assets/images/ionic_lab.png?raw=true "Ionic 2 Kitchen Sink in Ionic Lab")
 
 ## Deployment
 
