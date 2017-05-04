@@ -49,6 +49,10 @@ That's it! To quickly see the app run in Android, iPhone and Windows phones, run
 
 $ `ionic lab`
 
+You'll see:
+
+![Ionic 2 Kitchen Sink in Ionic Lab](/src/asssets/images/ionic_lab.jpg?raw=true "Ionic 2 Kitchen Sink in Ionic Lab")
+
 ## Deployment
 
 To deploy the app to real devices, such as Android, iPhone or Windows phones, read on the [Official Deployment](http://ionicframework.com/docs/intro/deploying/) documentation.
