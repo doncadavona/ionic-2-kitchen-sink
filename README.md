@@ -45,7 +45,7 @@ $ `npm run dev`
 
 $ `ionic serve`
 
-That's it! To quickly see the app run in Android, iPhone and Windows phones, run:
+That's it! To quickly see the app run in Android, iOS and Windows phones, run:
 
 $ `ionic lab`
 
@@ -55,4 +55,4 @@ You'll see:
 
 ## Deployment
 
-To deploy the app to real devices, such as Android, iPhone or Windows phones, read on the [Official Deployment](http://ionicframework.com/docs/intro/deploying/) documentation.
+To deploy the app to real devices, such as Android, iOS or Windows phones, read on the [Official Deployment](http://ionicframework.com/docs/intro/deploying/) documentation.
