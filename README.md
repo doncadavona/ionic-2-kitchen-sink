@@ -33,6 +33,8 @@ An Ionic 2 demo app with all the components.
 * Toggle
 * Toolbar
 
+Learn more about Ionic components at [Ionic Components](http://ionicframework.com/docs/components/).
+
 # Installation
 
 To install Ionic 2 Kitchen Sink in your machine, run the following commands below. You may need to install the commands first as documented in the [Official Installation](http://ionicframework.com/docs/intro/installation/).
@@ -41,7 +43,7 @@ $ `git clone git@github.com:doncadavona/ionic-2-kitchen-sink.git`
 
 $ `cd ionic-2-kitchen-sink`
 
-$ `npm run dev`
+$ `npm install`
 
 $ `ionic serve`
 
